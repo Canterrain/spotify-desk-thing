@@ -24,7 +24,7 @@ echo "Enter your Spotify Client Secret:"
 read SPOTIFY_CLIENT_SECRET
 
 # Configure redirect URIs
-REDIRECT_URI="http://localhost:8000/callback"
+REDIRECT_URI="http://localhost:3000/auth/callback"
 
 # Create environment file
 # Create a new environment file
