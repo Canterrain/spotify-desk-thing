@@ -5,7 +5,7 @@ import sys
 # Collect credentials from command-line arguments
 client_id = sys.argv[1]
 client_secret = sys.argv[2]
-redirect_uri = sys.argv[3]
+redirect_uri = "http://localhost:3000/auth/callback"
 
 scope = "user-read-playback-state user-modify-playback-state user-read-currently-playing playlist-read-private app-remote-control streaming user-library-read"
 
